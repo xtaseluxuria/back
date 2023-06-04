@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_button_resas",
+  "info": {
+    "displayName": "buttonResa",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "solid",
+        "underline"
+      ],
+      "required": true
+    }
+  }
+}

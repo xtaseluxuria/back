@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "map_and_contacts",
+  "info": {
+    "singularName": "map-and-contact",
+    "pluralName": "map-and-contacts",
+    "displayName": "MapAndContact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "contactTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "contactSubTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "map": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "phone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "mail": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "whatsApp": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "name": "homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.hero",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "heroDesktopImgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "heroMobileImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "buttonResa": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button-resa",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "backgroundVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.background-video",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "conceptTitle": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "conceptContentOne": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "linkLabel": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "linkHref": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "galleryTitle": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "gallerySubTitle": {
+      "type": "string",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "galleryImgs": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "conceptContentTwo": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "listJeuxTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "listJeuxImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "listSituationTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "listSituationImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "videoBg": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    }
+  }
+}

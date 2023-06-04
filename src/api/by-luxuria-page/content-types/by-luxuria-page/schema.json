@@ -1,0 +1,118 @@
+{
+  "kind": "singleType",
+  "collectionName": "by_luxuria_pages",
+  "info": {
+    "singularName": "by-luxuria-page",
+    "pluralName": "by-luxuria-pages",
+    "displayName": "ByLuxuriaPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.hero"
+    },
+    "imgHero": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "sectionOne": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.detail-with-img"
+    },
+    "sectionTwo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.detail-with-img"
+    },
+    "sectionThree": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.detail-with-img"
+    },
+    "buttonResa": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.button-resa"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "bgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "imgBigSize": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    }
+  }
+}

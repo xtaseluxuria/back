@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_detail_with_imgs",
+  "info": {
+    "displayName": "DetailWithImg",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contentTwo": {
+      "type": "text"
+    }
+  }
+}
